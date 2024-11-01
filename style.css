@@ -51,3 +51,42 @@ li {
     cursor: pointer;
     transition: 0.3s;
 }
+
+.hamburger:hover {
+    opacity: 0.7;
+}
+
+.hamburger span {
+    width: 50px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 25px;
+    transition: 0.3s ease-in-out;
+}
+
+.hamburger span:nth-child(1) {
+    top: 36px;
+}
+
+.hamburger span:nth-child(2) {
+    top: 50px;
+}
+
+.hamburger span:nth-child(3) {
+    top: 64px;
+}
+
+.hamburger.active span:nth-child(1) {
+    top: 47px;
+    left: 25px;
+    background: #fff;
+    transform: rotate(-45deg);
+}
+
+.hamburger.active span:nth-child(2),
+.hamburger.active span:nth-child(3) {
+    top: 47px;
+    background: #fff;
+    transform: rotate(45deg);
+}
