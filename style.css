@@ -106,3 +106,29 @@ li {
     transition: opacity 0.6s ease, visibility 0.6s ease;
     visibility: hidden;
 }
+
+/* If navi active */
+#navi.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+#navi .logo {
+    width: 100px;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+
+#navi .menu {
+   margin: 80px 0 40px 0;
+}
+
+#navi .menu li {
+    margin-bottom: 20px;
+}
+
+#navi .menu a {
+    color: #fff;
+    font-weight: bold;
+}
