@@ -155,3 +155,8 @@ li {
     right: -6px;
     bottom: -6px;
 }
+
+#navi .btn:hover {
+    background: #fff;
+    color: #ff2a2a;
+}
