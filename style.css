@@ -24,6 +24,33 @@ li {
     list-style: none;
 }
 
+/* Components */
+.wrapper {
+    width: 100%;
+    max-width: 860px;
+    margin: auto;
+}
+
+.section-title {
+    font-size: 2.25rem;
+    margin-bottom: 100px;
+    text-align: center;
+    position: relative;
+}
+
+.section-title::after {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: #333;
+    display: block;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: -20px;
+}
+
 /* Header */
 #header {
     height: 40px;
@@ -268,4 +295,41 @@ li {
     100% {
         opacity: 0;
     }
+}
+
+/* Reason Section */
+#reason {
+    margin-bottom: 120px;
+}
+
+#reason .bg {
+    background: #ff2a2a;
+    padding: 80px 0;
+}
+
+#reason .slide {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 5%;
+}
+
+#reason .slide img {
+    width: auto;
+    height: 60px;
+    margin-right: 30px;
+}
+
+#reason .slide .title {
+    color: #ff2a2a;
+    display: block;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+#reason .slide .text {
+    display: block;
+    font-size: 1.125rem;
 }
