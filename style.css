@@ -333,3 +333,14 @@ li {
     display: block;
     font-size: 1.125rem;
 }
+
+#reason .inview-slide-left {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 40px;
+}
+
+#reason .inview-slide-right {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
