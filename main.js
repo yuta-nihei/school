@@ -14,3 +14,16 @@ function hamburger() {
         $('#navi').removeClass('active');
     }
 }
+
+$('.inview-slide-left').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
+    if(isInView){
+        $(this).stop().addClass('slide-left');
+    }
+});
+
+$('.inview-slide-right').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
+    if(isInView){
+        $(this).stop().addClass('slide-right');
+    }
+});
+
