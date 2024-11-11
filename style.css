@@ -314,6 +314,7 @@ li {
     justify-content: center;
     background: #fff;
     padding: 5%;
+    opacity: 0;
 }
 
 #reason .slide img {
@@ -343,4 +344,36 @@ li {
 #reason .inview-slide-right {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+}
+
+/* Animation Slide left */
+#reason .slide-left {
+    animation: slide-left 0.5s ease-in-out 0s 1 forwards;
+}
+
+@keyframes slide-left {
+    0% {
+        transform: translateX(-50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+#reason .slide-right {
+    animation: slide-right 0.5s ease-out 0s 1 forwards;
+}
+
+
+@keyframes slide-right {
+    0% {
+        transform: translateX(150%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(100%);
+    }
 }
