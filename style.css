@@ -377,3 +377,32 @@ li {
         transform: translateX(100%);
     }
 }
+
+/* Voice */
+#voice {
+    margin-bottom: 120px;
+}
+
+#voice .item-left,
+#voice .item-right {
+    display: flex;
+    align-items: flex-start;
+    opacity: 1;
+    margin-bottom: 60px;
+}
+
+#voice .item-left {
+    justify-content: flex-start;
+}
+
+#voice .student img {
+    width: 120px;
+    background: #ccc;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#voice .student .name {
+    font-size: 0.75rem;
+    text-align: center;
+}

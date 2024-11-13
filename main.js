@@ -3,6 +3,18 @@ $(function() {
     $('.hamburger').on('click', function() {
         hamburger();
     })
+
+    $('.inview-slide-left').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
+        if(isInView){
+            $(this).stop().addClass('slide-left');
+        }
+    });
+    
+    $('.inview-slide-right').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
+        if(isInView){
+            $(this).stop().addClass('slide-right');
+        }
+    });
 })
 
 function hamburger() {
@@ -15,15 +27,5 @@ function hamburger() {
     }
 }
 
-$('.inview-slide-left').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
-    if(isInView){
-        $(this).stop().addClass('slide-left');
-    }
-});
 
-$('.inview-slide-right').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
-    if(isInView){
-        $(this).stop().addClass('slide-right');
-    }
-});
 
