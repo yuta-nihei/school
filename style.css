@@ -387,7 +387,7 @@ li {
 #voice .item-right {
     display: flex;
     align-items: flex-start;
-    opacity: 1;
+    opacity: 0;
     margin-bottom: 60px;
 }
 
@@ -445,5 +445,20 @@ li {
     top: 60%;
     right: 0;
     margin-right: -30px;
+}
+
+#voice .balloon {
+    animation: balloon 0.5s ease-out 0s 1 forwards;
+}
+
+@keyframes balloon {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 

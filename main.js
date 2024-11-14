@@ -15,6 +15,14 @@ $(function() {
             $(this).stop().addClass('slide-right');
         }
     });
+
+    $('.inview-balloon').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
+        if(isInView) {
+            $(this).stop().addClass('balloon');
+        }
+    })
+
+
 })
 
 function hamburger() {
