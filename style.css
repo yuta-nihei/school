@@ -437,3 +437,13 @@ li {
     margin-left: -30px;
 }
 
+#voice .item-right .balloon-text::before {
+    position: absolute;
+    content: '';
+    border: 15px solid transparent;
+    border-left: 15px solid #e9f1fb;
+    top: 60%;
+    right: 0;
+    margin-right: -30px;
+}
+
