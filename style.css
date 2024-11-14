@@ -406,3 +406,34 @@ li {
     font-size: 0.75rem;
     text-align: center;
 }
+
+/* Balloon Settings */
+#voice .item-left .balloon-text,
+#voice .item-right .balloon-text {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    background: #e9f1fb;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+}
+
+#voice .item-left .balloon-text {
+    margin-left: 25px;
+}
+
+#voice .item-right .balloon-text {
+    margin-right: 25px;
+}
+
+#voice .item-left .balloon-text::before {
+    position: absolute;
+    content: '';
+    border: 15px solid transparent;
+    border-right: 15px solid #e9f1fb;
+    top: 60%;
+    left: 0;
+    margin-left: -30px;
+}
+
