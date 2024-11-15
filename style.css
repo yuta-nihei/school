@@ -487,7 +487,7 @@ li {
 }
 
 #summary .menu li {
-    width: 40%;
+    width: 48%;
     background: #fff;
     padding: 60px;
     border-radius: 20px;
@@ -508,5 +508,11 @@ li {
     display: block;
     font-size: 1.75rem;
     margin-bottom: 15px;
+}
+
+#summary .menu-title .en {
+    display: block;
+    font-size: 1.125rem;
+    margin-bottom: 30px;
 }
 
