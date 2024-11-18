@@ -597,3 +597,52 @@ li {
 }
 
 /* SmartPhone */
+@media screen and (max-width: 900px) {
+    .wrapper {
+        padding: 0 16px;
+    }
+
+    .section-title {
+        font-size: 1.75rem;
+        margin-bottom: 60px;
+    }
+
+    .section-title::after {
+        width: 80px;
+    }
+
+    /* Header */
+    #header {
+       padding: 25px 0 0 25px;  
+    }
+
+    .hamburger {
+        width: 75px;
+        height: 75px;
+    }
+
+    .hamburger span {
+        width: 35px;
+        left: 21px;
+    }
+
+    .hamburger span:nth-child(1) {
+        top: 26px;
+    }
+
+    .hamburger span:nth-child(2) {
+        top: 37px;
+    }
+
+    .hamburger span:nth-child(3) {
+        top: 48px;
+    }
+
+    
+
+
+
+
+}
+
+
