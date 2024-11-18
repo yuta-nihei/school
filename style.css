@@ -657,6 +657,34 @@ li {
         margin-top: 110px;
     }
 
+    /* Mainvisual */
+    #mainvisual {
+        height: 490px;
+        margin-bottom: 80px;
+    }
+
+    #mainvisual .fade li {
+        width: 100%;
+    }
+
+    #mainvisual .fade li img {
+        height: 390px;
+    }
+
+    #mainvisual .text {
+        width: calc(100% - 32px);
+        top: 310px;
+        left: 16px;
+    }
+
+    #mainvisual .text .title {
+        font-size: 1.75rem;
+        margin-bottom: 10px;
+    }
+
+    #mainvisual .text .btn {
+        width: 100%;
+    }
 }
 
 
