@@ -554,3 +554,46 @@ li {
     color: #ff2a2a;
 }
 
+/* Footer */
+#footer {
+    background: #e8e8e8;
+    padding: 60px 0 20px 0;
+}
+
+#footer a {
+    font-size: 0.875rem;
+    transition: 0.3s;
+}
+
+#footer a:hover {
+    opacity: 0.7;
+}
+
+#footer .inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+#footer .inner > li {
+    width: 25%;
+}
+
+#footer .inner .title {
+    font-weight: bold;
+}
+
+#footer .inner .menu {
+    padding: 10px 0 0 10px;
+}
+
+#footer .inner .menu li {
+    margin-bottom: 3px;
+}
+
+#footer .copyright {
+    text-align: center;
+    font-size: 0.625rem;
+}
+
+/* SmartPhone */
