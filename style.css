@@ -637,6 +637,26 @@ li {
     .hamburger span:nth-child(3) {
         top: 48px;
     }
+
+    .hamburger.active span:nth-child(1) {
+        top: 37px;
+        left: 21px;
+    }
+
+    .hamburger.active span:nth-child(2),
+    .hamburger.active span:nth-child(3) {
+        top: 37px;
+    }
+
+    #navi .logo {
+        top: 25px;
+        left: 25px;
+    }
+    
+    #navi .menu {
+        margin-top: 110px;
+    }
+
 }
 
 
