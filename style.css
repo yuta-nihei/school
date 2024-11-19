@@ -699,6 +699,10 @@ li {
         width: calc(100% - 16px);
     }
 
+    #reason .slide .title {
+        font-size: 1.5rem;
+    }
+
     @keyframes slide-left {
         0% {
             transform: translateX(-100%);
@@ -717,6 +721,30 @@ li {
             opacity: 1;
             transform: translateX(16px);
         }
+    }
+
+    /* Voice */
+    #voice {
+        margin-bottom: 80px;
+    }
+
+    #voice .student {
+        text-align: center;
+    }
+
+    #voice .item-left,
+    #voice .item-right {
+        margin-bottom: 40px;
+    }
+
+    #voice .item-left {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #voice .item-right {
+        flex-direction: column;
+        align-items: center;
     }
 }
 
