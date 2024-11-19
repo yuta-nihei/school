@@ -685,6 +685,39 @@ li {
     #mainvisual .text .btn {
         width: 100%;
     }
+
+    /* Reason */
+    #reason {
+        margin-bottom: 80px;
+    }
+
+    #reason .bg {
+        padding: 40px 0;
+    }
+
+    #reason .slide {
+        width: calc(100% - 16px);
+    }
+
+    @keyframes slide-left {
+        0% {
+            transform: translateX(-100%);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    @keyframes slide-right {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(16px);
+        }
+    }
 }
 
 
