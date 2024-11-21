@@ -767,6 +767,38 @@ li {
     #voice .item-right .balloon-text::before {
         margin-right: calc(50% - 15px);
     }
+
+    /* Summary */
+    #summary {
+        margin-bottom: 80px;
+    }
+
+    #summary .menu {
+        flex-direction: column;
+    }
+
+    #summary .menu li {
+        width: 100%;
+        padding: 30px;
+    }
+
+    #summary .menu li:nth-child(3) {
+        margin-bottom: 32px;
+    }
+
+    #summary .menu-title .ja {
+        font-size: 1.5rem;
+    }
+
+    #summary .menu-title .en {
+        font-size: 1rem;
+    }
+
+    /* Entry */
+    
+
 }
+
+
 
 
