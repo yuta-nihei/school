@@ -795,7 +795,48 @@ li {
     }
 
     /* Entry */
-    
+    #entry {
+        margin-bottom: 80px;
+    }
+
+    #entry .title {
+        font-size: 1.5rem;
+    }
+
+    #entry .catchphrase {
+        font-size: 1rem;
+    }
+
+    #entry .btn {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    /* Footer */
+    #footer .inner {
+        flex-wrap: wrap;
+    }
+
+    #footer a {
+        font-size: 0.75rem;
+    }
+
+    #footer .inner .title {
+        font-size: 0.9375rem;
+    }
+
+    #footer .inner>li {
+        width: 50%;
+    }
+
+    #footer .inner>li:nth-child(1),
+    #footer .inner>li:nth-child(2) {
+        margin-bottom: 30px;
+    }
+
+
+
+
 
 }
 
